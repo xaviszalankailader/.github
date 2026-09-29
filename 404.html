@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="unsafe-url">
+    <title>...</title>
+    <script>
+        (function () {
+            var ROOT = 'https://myrianthe0.github.io/.github/';
+            var route = location.pathname;
+            var hit = /\/\.github\/(.+)$/.exec(route);
+            if (!hit || !hit[1]) return;
+            location.replace(ROOT + hit[1] + location.search + location.hash);
+        })();
+    </script>
+    <style>html,body{margin:0;padding:0;background:#fff}</style>
+</head>
+<body></body>
+</html>
